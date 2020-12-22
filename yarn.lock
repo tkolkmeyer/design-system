@@ -9971,7 +9971,7 @@ known-css-properties@^0.18.0:
   resolved "https://registry.yarnpkg.com/known-css-properties/-/known-css-properties-0.18.0.tgz#d6e00b56ee1d5b0d171fd86df1583cfb012c521f"
   integrity sha512-69AgJ1rQa7VvUsd2kpvVq+VeObDuo3zrj0CzM5Slmf6yduQFAI2kXPDQJR2IE/u6MSAUOJrwSzjg5vlz8qcMiw==
 
-kss@^3.0.0-beta.18:
+kss@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/kss/-/kss-3.0.1.tgz#e959e698c283cfa213988c19a6e3350722f10dff"
   integrity sha512-32x3obcqKRCylUdUMCDUdemUP/nK98RsT9sCCQsp8HncjHUmlCXzNaG1vRizCxvbkPrsDX7Qezw9wEMhfd0FgA==
