@@ -1,4 +1,4 @@
-import InformationIcon from '../../images/information-new-generic.svg';
+import InformationNewIcon from '../../images/information-new-generic.svg';
 import PropTypes from 'prop-types';
 import React from 'react';
 import classNames from 'classnames';
@@ -6,7 +6,7 @@ import classNames from 'classnames';
 export const TooltipIcon = (props) => {
   return (
     <span className="ds-c-tooltip-icon__container">
-      <InformationIcon
+      <InformationNewIcon
         className={classNames('ds-c-tooltip-icon', {
           'ds-c-tooltip-icon--inverse': props.inversed,
         })}

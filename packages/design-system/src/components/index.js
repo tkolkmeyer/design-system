@@ -31,3 +31,4 @@ export { default as TextField, unmaskValue } from './TextField/TextField';
 export { default as Tooltip } from './Tooltip/Tooltip';
 export { default as TooltipIcon } from './Tooltip/TooltipIcon';
 export { default as VerticalNav } from './VerticalNav/VerticalNav';
+export { default as Icons } from './Icons';
