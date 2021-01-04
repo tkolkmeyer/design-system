@@ -5,8 +5,6 @@ import React from 'react';
 import classNames from 'classnames';
 import uniqueId from 'lodash.uniqueid';
 
-export { unmaskValue } from './Mask';
-
 export class TextField extends React.PureComponent {
   constructor(props) {
     super(props);
