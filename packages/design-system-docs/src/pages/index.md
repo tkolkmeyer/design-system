@@ -10,7 +10,7 @@ It is currently being applied to [HealthCare.gov](https://www.healthcare.gov/) a
 ## Getting started
 
 - **For developers** - [Download the code as a zip file](https://github.com/CMSgov/design-system/releases/latest) or [install with NPM]({{root}}/startup/installation/).
-- **For designers** - [Get the Sketch Library](sketch://add-library?url=https%3A%2F%2Fgithub.com%2FCMSgov%2Fdesign-system%2Fraw%2Fmaster%2Fdesign-assets%2Fcms-design-system-ui-kit.xml) or [download the Sketch UI kit](https://github.com/CMSgov/design-system/raw/master/design-assets/CMS-Design-System-UI-kit.sketch).
+- **For designers** - [Get the Sketch Library](https://www.sketch.com/s/bffbfeb1-59a1-48dd-842f-a1e0566e457f).
 
 ## Goals
 
