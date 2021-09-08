@@ -27,6 +27,7 @@ import uniqueId from 'lodash.uniqueid';
 export interface AutocompleteItems {
   id?: string;
   name?: string;
+  className?: string;
 }
 
 type PropsNotPassedToDownshift =
@@ -176,11 +177,9 @@ export class Autocomplete extends React.Component<AutocompleteProps, any> {
       return items.map((item, index) => (
         <li
           aria-selected={highlightedIndex === index}
-          className={
-            highlightedIndex === index
-              ? 'ds-c-autocomplete__list-item ds-c-autocomplete__list-item--active'
-              : 'ds-c-autocomplete__list-item'
-          }
+          className={classNames(item.className, 'ds-c-autocomplete__list-item', {
+            'ds-c-autocomplete__list-item--active': highlightedIndex === index,
+          })}
           key={item.id}
           role="option"
           {...getItemProps({ item })}
