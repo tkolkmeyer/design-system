@@ -1,5 +1,6 @@
 import { Badge, Button, Dialog, TabPanel, Tabs } from '@cmsgov/design-system';
 import React, { useState } from 'react';
+import DayPickerExample from './Examples/DayPickerExample';
 import AccordionExample from './Examples/AccordionExample';
 import AlertExample from './Examples/AlertExample';
 import AutocompleteExample from './Examples/AutocompleteExample';
@@ -97,7 +98,8 @@ function App() {
         <TabPanel id="examples" tab="Examples">
           Example of every design system component, for testing
           <div id="Examples" style={{ minHeight: 300 }}>
-            <AccordionExample />
+            <DayPickerExample />
+            {/* <AccordionExample />
             <AlertExample />
             <AutocompleteExample />
             <BadgeExample />
@@ -118,7 +120,7 @@ function App() {
             <TabsExample />
             <TooltipExample />
             <UsaBannerExample />
-            <VerticalNavigationExample />
+            <VerticalNavigationExample /> */}
           </div>
         </TabPanel>
       </Tabs>

@@ -4,6 +4,7 @@ $image-path: '~@cmsgov/design-system/dist/images';
 
 // Core CMSDS styles
 @import '@cmsgov/design-system/dist/scss/index';
+@import 'react-day-picker/dist/style';
 
 body {
   margin: 0;
